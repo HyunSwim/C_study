@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/hyunswim/study/error_detection_project/devel -DCMAKE_INSTALL_PREFIX=/home/hyunswim/study/error_detection_project/install -G Unix Makefiles

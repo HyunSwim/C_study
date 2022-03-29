@@ -10,12 +10,12 @@ class Start:
         self.LiDAR_input = 1
 
     def run(self):
-        self.camera_input = input("camera_input(1:ok, 0:error) : ")
-        self.LiDAR_input = input("LiDAR_input(1:ok, 0:error) : ")
+        camera_input = input("camera_input(1:ok, 0:error) : ")
+        LiDAR_input = input("LiDAR_input(1:ok, 0:error) : ")
         print("Input Complete")
 
-        self.pub1.publish(self.camera_input)
-        self.pub2.publish(self.camera_input)
+        self.pub1.publish(int(camera_input))
+        self.pub2.publish(int(LiDAR_input))
 
 if __name__ == "__main__":
     ss = Start()
