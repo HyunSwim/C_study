@@ -45,8 +45,12 @@ int main(int argc, char *argv[])
 		clnt_sock=accept(serv_sock, (struct sockaddr*)&clnt_adr, &clnt_adr_sz);
 		if(clnt_sock==-1)
 			error_handling("accept() error");
-		else
+		else{
+			printf("Client IP %s \n", inet_ntoa(clnt_adr.sin_addr)); //
+			unsigned int clinet_port = ntohs(clnt_adr.sin_port); //
+			printf("Clinet Port %d \n", clinet_port); //
 			printf("Connected client %d \n", i+1);
+		}
 	
 		while((str_len=read(clnt_sock, message, BUF_SIZE))!=0)
 			write(clnt_sock, message, str_len);
