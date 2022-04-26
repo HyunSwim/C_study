@@ -8,5 +8,5 @@ line .*\n
 %%
 {line} {printf ("%5d %s", lineno++, yytext);}
 %%
-main()
-{yylex(); return 0;}
+int main()
+{while(1){yylex();} return 0;}
