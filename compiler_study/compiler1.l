@@ -25,11 +25,8 @@ main(){
     int i = 0;
     int j = 0;
     int k = 0;
-    int a;
-    int b;
     int c;
     int s;
-    char ch;
     while((token=yylex())){
         switch(token){
             case NUMBER:
