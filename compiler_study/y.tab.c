@@ -68,9 +68,9 @@
 /* First part of user prologue.  */
 #line 1 "example2.y"
 
-    #include <ctype.h>
-    #include <stdio.h>
-    #define YYSTYPE double
+#include <ctype.h>
+#include <stdio.h>
+#define YYSTYPE double
 
 #line 76 "y.tab.c"
 
@@ -1301,7 +1301,7 @@ yyreduce:
     {
   case 2:
 #line 11 "example2.y"
-                        {printf("%g\n", yyvsp[-1]);}
+                        { printf("%g\n", yyvsp[-1]); }
 #line 1306 "y.tab.c"
     break;
 
@@ -1313,31 +1313,31 @@ yyreduce:
 
   case 6:
 #line 16 "example2.y"
-                     { yyval = yyvsp[-2] - yyvsp[0]; }
+                { yyval = yyvsp[-2] - yyvsp[0]; }
 #line 1318 "y.tab.c"
     break;
 
   case 7:
 #line 17 "example2.y"
-                     { yyval = yyvsp[-2] * yyvsp[0]; }
+                { yyval = yyvsp[-2] * yyvsp[0]; }
 #line 1324 "y.tab.c"
     break;
 
   case 8:
 #line 18 "example2.y"
-                     { yyval = yyvsp[-2] / yyvsp[0]; }
+                { yyval = yyvsp[-2] / yyvsp[0]; }
 #line 1330 "y.tab.c"
     break;
 
   case 9:
 #line 19 "example2.y"
-                    {yyval = yyvsp[-1];}
+               { yyval = yyvsp[-1]; }
 #line 1336 "y.tab.c"
     break;
 
   case 10:
 #line 20 "example2.y"
-                             {yyval = -yyvsp[0];}
+                        { yyval = -yyvsp[0]; }
 #line 1342 "y.tab.c"
     break;
 
@@ -1576,21 +1576,22 @@ yyreturn:
 }
 #line 23 "example2.y"
 
-int yylex(){
-    int c;
-    while((c=gechar())==' ');
-    if((c=='.')||isdigit(c)){
-        ungetc(c, stdin);
-        scaf("%lf", &yylval);
-        return NUMBER;
-    }
-    return c;
+int yylex()
+{ int c;
+while ((c = getchar()) == ' ')
+;
+if ((c == '.') || isdigit(c))
+{ ungetc(c, stdin);
+scanf("%lf", &yylval);
+return NUMBER;
 }
-int main(){
-    if(yyparse() != 0)
-        fprintf(stderr, "Abnormal exit\n");
-    return 0;
+return c;
 }
-int yyerror(char *s){
-    fprintf(stderr, "Error: %s\n", s);
+int main()
+{ if (yyparse() != 0)
+fprintf(stderr, "Abnormal exit\n");
+return 0;
+}
+int yyerror(char *s)
+{ fprintf(stderr, "Error: %s\n", s);
 }
