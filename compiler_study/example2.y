@@ -1,49 +1,45 @@
 %{
-/* Definition section */
-#include<stdio.h>
-int flag=0;
+#include <ctype.h>
+#include <stdio.h>
 %}
-
-%token NUMBER
-
+%union {double rval;}
+%token <rval> NUMBER
+%token OTHER
 %left '+' '-'
-
-%left '*' '/' '%'
-
-%left '(' ')'
-
-/* Rule Section */
+%left '*' '/'
+%right UMINUS
+%type <rval> expr
 %%
-
-ArithmeticExpression: expr{
-
-		printf("%d\n", $$);
-		};
-lines   : lines expr '\n' {printf("%g\n", $2);}
+lines   : lines fin
+        | lines expr '\n'
         | lines '\n'
-        | /* empty */
         ;
-expr    : expr'+'expr {$$=$1+$3;}
-        | expr'-'expr {$$=$1-$3;}
-        | expr'*'expr {$$=$1*$3;}
-        | expr'/'expr {$$=$1/$3;}
-
-|'('expr')' {$$=$2;}
-
-| expr ';' {$$ = $1;}
-| NUMBER
-
-;
-
+fin     : expr ';' {fprintf("%d\n", $1);}
+        ;
+expr    : expr '+' expr                 { $$ = $1 + $3; }
+        | expr '-' expr                 { $$ = $1 - $3; }
+        | expr '*' expr                 { $$ = $1 * $3; }
+        | expr '/' expr                 { $$ = $1 / $3; }
+        | '(' expr ')'                  { $$ = $2; }
+        | '-' expr %prec UMINUS         { $$ = -$2; }
+        | NUMBER
+        ;
 %%
-
-//driver code
-void main()
-{
-    yyparse();
+int yylex(){
+        int c;
+        while ((c=getchar()) == ' ');
+        if((c=='.') || isdigit(c)){
+                ungetc(c, stdin);
+                scanf("%lf", &yylval);
+                return NUMBER;
+        }
+        return c;
 }
-
-void yyerror()
-{
-printf("error\n");
+int main(){
+        if(yyparse() != 0)
+                fprintf(stderr, "Abnormal exit\n");
+        return 0;
+}
+int yyerror(char *s){
+        fprintf(stderr, "Error: %s\n", s);
 }

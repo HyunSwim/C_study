@@ -1,22 +1,26 @@
 %{
-/* Definition section */
-#include<stdio.h>
 #include "y.tab.h"
-extern int yylval;
+void yyerror(char *);
 %}
-number [0-9]+\.?|[0-9]*\.[0-9]+
-/* Rule Section */
-%%
-{number} {
-		yylval=atoi(yytext);
-		return NUMBER;
-
-	}
-. return yytext[0];
-
+delim [ \t]
+ws {delim}+
+digit [0-9]
+deci (0|({digit}{digit}*))
+number {deci}(\.{digit}+)?((E|e)[+\-]?{digit}+)?
+operator [-+/*=()]
+fin ;
+newline \n
 %%
 
-int yywrap()
+{number} { yylval.rval = atof(yytext); return NUMBER; }
+{operator} { return yytext[0]; }
+{ws} ;
+{fin} { return yytext[0]; }
+{newline} { return yytext[0]; }
+. { return OTHER; }
+
+%%
+int yywrap(void)
 {
-return 1;
+  return 1;
 }
