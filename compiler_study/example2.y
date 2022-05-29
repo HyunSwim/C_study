@@ -1,41 +1,49 @@
 %{
-    #include <ctype.h>
-    #include <stdio.h>
-    #define YYSTYPE double
+/* Definition section */
+#include<stdio.h>
+int flag=0;
 %}
+
 %token NUMBER
+
 %left '+' '-'
-%left '*' '/'
-%left UMINUS
+
+%left '*' '/' '%'
+
+%left '(' ')'
+
+/* Rule Section */
 %%
-lines : lines expr '\n' {printf("%g\n", $2);}
-      | lines '\n'
-      | /* empty */
-      ;
-expr : expr '+' expr { $$ = $1 + $3; }
-     | expr '-' expr { $$ = $1 - $3; }
-     | expr '*' expr { $$ = $1 * $3; }
-     | expr '/' expr { $$ = $1 / $3; }
-     | '(' expr ')' {$$ = $2;}
-     | '-' expr %prec UMINUS {$$ = -$2;}
-     | NUMBER
-     ;
+
+ArithmeticExpression: expr{
+
+		printf("%d\n", $$);
+		};
+lines   : lines expr '\n' {printf("%g\n", $2);}
+        | lines '\n'
+        | /* empty */
+        ;
+expr    : expr'+'expr {$$=$1+$3;}
+        | expr'-'expr {$$=$1-$3;}
+        | expr'*'expr {$$=$1*$3;}
+        | expr'/'expr {$$=$1/$3;}
+
+|'('expr')' {$$=$2;}
+
+| expr ';' {$$ = $1;}
+| NUMBER
+
+;
+
 %%
-int yylex(){
-    int c;
-    while((c=gechar())==' ');
-    if((c=='.')||isdigit(c)){
-        ungetc(c, stdin);
-        scaf("%lf", &yylval);
-        return NUMBER;
-    }
-    return c;
+
+//driver code
+void main()
+{
+    yyparse();
 }
-int main(){
-    if(yyparse() != 0)
-        fprintf(stderr, "Abnormal exit\n");
-    return 0;
-}
-int yyerror(char *s){
-    fprintf(stderr, "Error: %s\n", s);
+
+void yyerror()
+{
+printf("error\n");
 }

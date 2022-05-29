@@ -1,13 +1,22 @@
-%option noyywrap
 %{
+/* Definition section */
+#include<stdio.h>
 #include "y.tab.h"
-
-extern double yylval;
+extern int yylval;
 %}
-number [0-9]+\.?|.[0-9]+
+number [0-9]+\.?|[0-9]*\.[0-9]+
+/* Rule Section */
 %%
-[ ] { /* skip blanks */ }
-{number} { sscanf(yytext, “%lf”, &yylval);
-return NUMBER;
+{number} {
+		yylval=atoi(yytext);
+		return NUMBER;
+
+	}
+. return yytext[0];
+
+%%
+
+int yywrap()
+{
+return 1;
 }
-\n|. { return yytext[0]; }

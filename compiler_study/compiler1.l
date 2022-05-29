@@ -1,19 +1,21 @@
 %{  
     #include <stdio.h>
+    #include "y.tab.c"
     #define NUMBER 256
     #define PLUS 255
     #define MINUS 254
     #define END 253
 %}
 /*regexp definitions */
-num [0-9]+
+number [0-9]+\.?|[0-9]*\.[0-9]+
 %option noyywrap
 
 %%
-{num} {return NUMBER;}
-"+" return PLUS;
-"-" return MINUS;
-.|\n|\0 return END;
+[ ] { /* skip blanks */ }
+{number} { sscanf(yytext, “%lf”, &yylval);
+return NUMBER;
+}
+\n|. { return yytext[0]; }
 %%
 
 int
