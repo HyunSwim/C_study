@@ -1,0 +1,8 @@
+prefix=/home/wecar/wecar_ws/install
+
+Name: obstacle_e_stop
+Description: Description of obstacle_e_stop
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

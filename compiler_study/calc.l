@@ -3,7 +3,7 @@
 	#include "y.tab.h"
 	#define YYSTYPE double
 %}
-operator [+-+/()E]
+operator [+-*/()E]
 %%
 
 [0-9]+\.?|[0-9]*\.[0-9]+ {yylval=atof(yytext); return NUMBER;}

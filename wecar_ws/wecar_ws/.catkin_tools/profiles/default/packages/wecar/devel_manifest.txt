@@ -1,0 +1,5 @@
+wecar
+/home/wecar/wecar_ws/devel/.private/wecar/cmake.lock /home/wecar/wecar_ws/devel/./cmake.lock
+/home/wecar/wecar_ws/devel/.private/wecar/share/wecar/cmake/wecarConfig.cmake /home/wecar/wecar_ws/devel/share/wecar/cmake/wecarConfig.cmake
+/home/wecar/wecar_ws/devel/.private/wecar/share/wecar/cmake/wecarConfig-version.cmake /home/wecar/wecar_ws/devel/share/wecar/cmake/wecarConfig-version.cmake
+/home/wecar/wecar_ws/devel/.private/wecar/lib/pkgconfig/wecar.pc /home/wecar/wecar_ws/devel/lib/pkgconfig/wecar.pc

@@ -1,0 +1,20 @@
+MIT-Racecar-Labs/ta_lab4
+/home/wecar/wecar_ws/devel/.private/ta_lab4/cmake.lock /home/wecar/wecar_ws/devel/./cmake.lock
+/home/wecar/wecar_ws/devel/.private/ta_lab4/include/ta_lab4/Detection.h /home/wecar/wecar_ws/devel/include/ta_lab4/Detection.h
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/gennodejs/ros/ta_lab4/_index.js /home/wecar/wecar_ws/devel/share/gennodejs/ros/ta_lab4/_index.js
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/gennodejs/ros/ta_lab4/msg/Detection.js /home/wecar/wecar_ws/devel/share/gennodejs/ros/ta_lab4/msg/Detection.js
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/gennodejs/ros/ta_lab4/msg/_index.js /home/wecar/wecar_ws/devel/share/gennodejs/ros/ta_lab4/msg/_index.js
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/common-lisp/ros/ta_lab4/msg/Detection.lisp /home/wecar/wecar_ws/devel/share/common-lisp/ros/ta_lab4/msg/Detection.lisp
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/common-lisp/ros/ta_lab4/msg/_package_Detection.lisp /home/wecar/wecar_ws/devel/share/common-lisp/ros/ta_lab4/msg/_package_Detection.lisp
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/common-lisp/ros/ta_lab4/msg/ta_lab4-msg.asd /home/wecar/wecar_ws/devel/share/common-lisp/ros/ta_lab4/msg/ta_lab4-msg.asd
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/common-lisp/ros/ta_lab4/msg/_package.lisp /home/wecar/wecar_ws/devel/share/common-lisp/ros/ta_lab4/msg/_package.lisp
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/ta_lab4/cmake/ta_lab4Config.cmake /home/wecar/wecar_ws/devel/share/ta_lab4/cmake/ta_lab4Config.cmake
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/ta_lab4/cmake/ta_lab4Config-version.cmake /home/wecar/wecar_ws/devel/share/ta_lab4/cmake/ta_lab4Config-version.cmake
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/ta_lab4/cmake/ta_lab4-msg-extras.cmake /home/wecar/wecar_ws/devel/share/ta_lab4/cmake/ta_lab4-msg-extras.cmake
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/ta_lab4/cmake/ta_lab4-msg-paths.cmake /home/wecar/wecar_ws/devel/share/ta_lab4/cmake/ta_lab4-msg-paths.cmake
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/roseus/ros/ta_lab4/manifest.l /home/wecar/wecar_ws/devel/share/roseus/ros/ta_lab4/manifest.l
+/home/wecar/wecar_ws/devel/.private/ta_lab4/share/roseus/ros/ta_lab4/msg/Detection.l /home/wecar/wecar_ws/devel/share/roseus/ros/ta_lab4/msg/Detection.l
+/home/wecar/wecar_ws/devel/.private/ta_lab4/lib/pkgconfig/ta_lab4.pc /home/wecar/wecar_ws/devel/lib/pkgconfig/ta_lab4.pc
+/home/wecar/wecar_ws/devel/.private/ta_lab4/lib/python2.7/dist-packages/ta_lab4/__init__.py /home/wecar/wecar_ws/devel/lib/python2.7/dist-packages/ta_lab4/__init__.py
+/home/wecar/wecar_ws/devel/.private/ta_lab4/lib/python2.7/dist-packages/ta_lab4/msg/__init__.py /home/wecar/wecar_ws/devel/lib/python2.7/dist-packages/ta_lab4/msg/__init__.py
+/home/wecar/wecar_ws/devel/.private/ta_lab4/lib/python2.7/dist-packages/ta_lab4/msg/_Detection.py /home/wecar/wecar_ws/devel/lib/python2.7/dist-packages/ta_lab4/msg/_Detection.py

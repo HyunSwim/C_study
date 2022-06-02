@@ -1,0 +1,8 @@
+prefix=/home/wecar/wecar_ws/devel
+
+Name: lane_detection_zed
+Description: Description of lane_detection_zed
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
