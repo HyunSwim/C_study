@@ -4,8 +4,8 @@
 
 void yyerror(char *);
 
-int_type = 1;
-float_type = 2;
+int Int_type = 1;
+int Float_type = 2;
 %}
 
 /* regexp definitions */
@@ -28,16 +28,16 @@ newline \n
 {integer} { strcpy(yylval.s_val, yytext);
             return INT;
           }
-(int)     { yylval.i_val = int_type;
+(int)     { yylval.i_val = Int_type;
             return TYPE;
           }
-(float)   { yylval.i_val = float_type;
+(float)   { yylval.i_val = Float_type;
             return TYPE;
           }
 {id}      { strcpy(yylval.s_val, yytext);
             return IDENTIFIER;
           }
-{operator}{ return *yytext; }
+{operator} { return *yytext; }
 (=)       { strcpy(yylval.s_val, yytext);
             return EQ;
           }

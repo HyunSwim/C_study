@@ -97,7 +97,7 @@ expr : INT                 { word_type |= int_type;
                              fprintf(outfile, "%s = %s - %s\n", $$, $1, $3); }
      | expr '*' expr       { sprintf(word, "t%d", word_index++);
                              strcpy($$, word);
-                             fprintf(outfile, "%s = %s * %s\n", $$, $1, $3); }
+                             fprintf(outfile, "%s = %s*%s\n", $$, $1, $3); }
      | expr '/' expr       { sprintf(word, "t%d", word_index++);
                              strcpy($$, word);
                              fprintf(outfile, "%s = %s / %s\n", $$, $1, $3); }
