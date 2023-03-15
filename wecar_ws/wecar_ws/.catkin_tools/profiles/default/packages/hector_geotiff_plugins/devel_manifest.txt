@@ -1,0 +1,6 @@
+hector_slam/hector_geotiff_plugins
+/home/wecar/wecar_ws/devel/.private/hector_geotiff_plugins/cmake.lock /home/wecar/wecar_ws/devel/./cmake.lock
+/home/wecar/wecar_ws/devel/.private/hector_geotiff_plugins/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake /home/wecar/wecar_ws/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake
+/home/wecar/wecar_ws/devel/.private/hector_geotiff_plugins/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake /home/wecar/wecar_ws/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake
+/home/wecar/wecar_ws/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.so /home/wecar/wecar_ws/devel/lib/libhector_geotiff_plugins.so
+/home/wecar/wecar_ws/devel/.private/hector_geotiff_plugins/lib/pkgconfig/hector_geotiff_plugins.pc /home/wecar/wecar_ws/devel/lib/pkgconfig/hector_geotiff_plugins.pc

@@ -447,9 +447,14 @@ char *yytext;
 #line 1 "example2.l"
 #line 3 "example2.l"
 #include "y.tab.h"
+<<<<<<< HEAD
 extern double yylval;
 #line 452 "lex.yy.c"
 #line 453 "lex.yy.c"
+=======
+#line 451 "lex.yy.c"
+#line 452 "lex.yy.c"
+>>>>>>> compiler_assignment_2
 
 #define INITIAL 0
 
@@ -666,9 +671,15 @@ YY_DECL
 		}
 
 	{
+<<<<<<< HEAD
 #line 7 "example2.l"
 
 #line 672 "lex.yy.c"
+=======
+#line 6 "example2.l"
+
+#line 671 "lex.yy.c"
+>>>>>>> compiler_assignment_2
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -727,28 +738,50 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
+<<<<<<< HEAD
 #line 8 "example2.l"
+=======
+#line 7 "example2.l"
+>>>>>>> compiler_assignment_2
 { /* skip blanks */ }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
+<<<<<<< HEAD
 #line 9 "example2.l"
 { sscanf(yytext, “%lf”, &yylval);
 return NUMBER;
 }
+=======
+#line 8 "example2.l"
+{yylval.rval = atof(yytext);
+			return NUMBER;
+			}
+>>>>>>> compiler_assignment_2
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
+<<<<<<< HEAD
 #line 12 "example2.l"
+=======
+#line 11 "example2.l"
+>>>>>>> compiler_assignment_2
 { return yytext[0]; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
+<<<<<<< HEAD
 #line 13 "example2.l"
 ECHO;
 	YY_BREAK
 #line 752 "lex.yy.c"
+=======
+#line 12 "example2.l"
+ECHO;
+	YY_BREAK
+#line 751 "lex.yy.c"
+>>>>>>> compiler_assignment_2
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1753,6 +1786,14 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
+<<<<<<< HEAD
 #line 13 "example2.l"
 
 
+=======
+#line 12 "example2.l"
+
+int yywrap(){
+	return 1;
+}
+>>>>>>> compiler_assignment_2

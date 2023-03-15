@@ -1,0 +1,8 @@
+vesc_old/vesc_ackermann
+/home/wecar/wecar_ws/devel/.private/vesc_ackermann/cmake.lock /home/wecar/wecar_ws/devel/./cmake.lock
+/home/wecar/wecar_ws/devel/.private/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake /home/wecar/wecar_ws/devel/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+/home/wecar/wecar_ws/devel/.private/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake /home/wecar/wecar_ws/devel/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+/home/wecar/wecar_ws/devel/.private/vesc_ackermann/lib/libvesc_ackermann_nodelet.so /home/wecar/wecar_ws/devel/lib/libvesc_ackermann_nodelet.so
+/home/wecar/wecar_ws/devel/.private/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc /home/wecar/wecar_ws/devel/lib/pkgconfig/vesc_ackermann.pc
+/home/wecar/wecar_ws/devel/.private/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node /home/wecar/wecar_ws/devel/lib/vesc_ackermann/ackermann_to_vesc_node
+/home/wecar/wecar_ws/devel/.private/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node /home/wecar/wecar_ws/devel/lib/vesc_ackermann/vesc_to_odom_node
