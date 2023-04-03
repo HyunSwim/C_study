@@ -1,0 +1,4 @@
+pitch,shape
+0.7,Pan
+0.8,Round
+1,Button
