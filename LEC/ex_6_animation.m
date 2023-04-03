@@ -27,3 +27,22 @@ for k = 2 : length(time)
     p_2.YData = sig_1(k);
     drawnow;
 end
+
+%%
+close all; clear all; clc;
+
+step = 0.01;
+time = 0:step:10;
+sig_0 = sin(2*pi*time);
+noise = rand(size(sig_0));
+sig_1 = sig_0 + noise - mean(noise);
+
+figure(1)
+plot(time, sig_1);
+
+%%
+window_size = 20;
+filter_den = 1;
+filter_num = (1/window_size) * ones(1, window_size);
+
+fillter_sig_1 = filter(filter_num, filter_den, data_sig);
