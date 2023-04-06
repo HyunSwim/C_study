@@ -2,7 +2,7 @@ clear; clc;
 open_system('sim_5_dc_refer.slx');
 
 model_works = get_param('sim_5_dc_refer', 'ModelWorkspace');
-model_works.DatasSource = 'MAT-File';
+model_works.DataSource = 'MAT-File';
 model_works.FileName = 'dc_params';
 
 assignin(model_works, 'R', 2);
