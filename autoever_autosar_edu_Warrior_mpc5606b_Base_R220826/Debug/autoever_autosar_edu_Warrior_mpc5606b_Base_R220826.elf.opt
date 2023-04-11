@@ -225,6 +225,8 @@ Debug\Static_Code\Reference_Code\App_TestModeUser.o
 Debug\Static_Code\Reference_Code\App_WdgM.o
 Debug\Static_Code\Reference_Code\Det_Stub.o
 Debug\Static_Code\Reference_Code\ErrM_Cbk.o
+Debug\Static_Code\Reference_Code\SWC_SeatHeatingConstrol.o
+Debug\Static_Code\Reference_Code\SWC_SeatSwitch.o
 Library\Modules\b_autosar_cdd_OsProfiler\lib\Opf_ControlEventQueue.o
 Library\Modules\b_autosar_cdd_OsProfiler\lib\Opf_GetProfileData.o
 Library\Modules\b_autosar_cdd_OsProfiler\lib\Opf_OsProfiler.o

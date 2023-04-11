@@ -20,67 +20,68 @@
 *******************************************************************************/
 /*
  * INPUT FILE:
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\ECUCD_EcucValueCollection.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Com.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Det.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_EcuC.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Os.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Rte.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Adc.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_BswM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Can.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanIf.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanSM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanTp.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Com.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_ComM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Crc.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dcm.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dem.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Det.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dio.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fee.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_FiM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fls.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Gpt.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Icu_43.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Mcu.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_MemIf.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_NvM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Os.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_PduR.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Port.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Pwm_43.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Spi.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Wdg_43.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Composition\EcuExtract.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DBImport\Project.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes_Etc.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_ComM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dcm.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dem.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_FiM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Mode.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_WdgM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\MODE_PortInterfaces.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Bsw_BswM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_ComM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Det.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_FiM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_EcuM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_IoHwAb.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgIf.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dcm.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dem.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_EcuM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_NvM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_IoHwAb.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_WdgM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_swc_ErrorManagement\App_ErrM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_EcuM_R40\generator\EcuM_PortInterface.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_WdgM_R40\generator\Swcd_WdgM_Fixed.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\ECUCD_EcucValueCollection.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Com.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Det.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_EcuC.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Os.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Rte.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Adc.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_BswM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Can.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanIf.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanSM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanTp.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Com.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_ComM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Crc.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dcm.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dem.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Det.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dio.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fee.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_FiM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fls.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Gpt.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Icu_43.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Mcu.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_MemIf.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_NvM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Os.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_PduR.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Port.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Pwm_43.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Spi.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Wdg_43.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Composition\EcuExtract.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DBImport\Project.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes_Etc.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_ComM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dcm.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dem.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_FiM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Mode.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Rte.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_WdgM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\MODE_PortInterfaces.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Bsw_BswM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_ComM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Det.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_FiM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_EcuM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_IoHwAb.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgIf.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dcm.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dem.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_EcuM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_NvM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_IoHwAb.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_WdgM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_swc_ErrorManagement\App_ErrM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_EcuM_R40\generator\EcuM_PortInterface.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_WdgM_R40\generator\Swcd_WdgM_Fixed.arxml
 
  * GENERATED ON:  This timestamp is removed.
 */
@@ -186,6 +187,94 @@
 *******************************************************************************/
 #define RTE_START_SEC_CODE
 #include "MemMap.h"
+#if defined(Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Start
+#endif
+
+#if defined(Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Start)
+#undef Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Start
+extern void Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Start(OUT P2VAR(boolean, AUTOMATIC, RTE_APPL_DATA) Data);
+#else
+#define Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Start(Data) ((void)(0))
+#endif
+
+#if defined(Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Return
+#endif
+
+#if defined(Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Return)
+#undef Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Return
+extern void Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Return(OUT P2VAR(boolean, AUTOMATIC, RTE_APPL_DATA) Data);
+#else
+#define Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Return(Data) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Start
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Start)
+#undef Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Start
+extern void Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Start(IN IoHwAb_LevelType Level);
+#else
+#define Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Start(Level) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Return
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Return)
+#undef Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Return
+extern void Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Return(IN IoHwAb_LevelType Level);
+#else
+#define Rte_CallHook_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect_Return(Level) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Start
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Start)
+#undef Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Start
+extern void Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Start(OUT P2VAR(IoHwAb_LevelType, AUTOMATIC, RTE_APPL_DATA) Level);
+#else
+#define Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Start(Level) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Return
+#endif
+
+#if defined(Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Return)
+#undef Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Return
+extern void Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Return(OUT P2VAR(IoHwAb_LevelType, AUTOMATIC, RTE_APPL_DATA) Level);
+#else
+#define Rte_CallHook_SWC_SeatSwitch_R_IO_ReadDirect_Return(Level) ((void)(0))
+#endif
+
+#if defined(Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Start
+#endif
+
+#if defined(Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Start)
+#undef Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Start
+extern void Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Start(IN boolean Data);
+#else
+#define Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Start(Data) ((void)(0))
+#endif
+
+#if defined(Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Return
+#endif
+
+#if defined(Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Return)
+#undef Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Return
+extern void Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Return(IN boolean Data);
+#else
+#define Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Return(Data) ((void)(0))
+#endif
+
 #if defined(Rte_CallHook_Dcm_DataServices_DIDRange_DIDs_0100h_0110h_WriteDidData_Start) && (RTE_VFB_TRACE == RTE_FALSE)
 #undef Rte_CallHook_Dcm_DataServices_DIDRange_DIDs_0100h_0110h_WriteDidData_Start
 #endif
@@ -822,28 +911,6 @@ extern void Rte_CallHook_Dcm_ServiceRequestSupplierNotification_DcmDslServiceReq
 #define Rte_CallHook_Dcm_ServiceRequestSupplierNotification_DcmDslServiceRequestSupplierNotification0_Confirmation_Return(SID,	ReqType,	SourceAddress,	ConfirmationStatus) ((void)(0))
 #endif
 
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start
-extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start(OUT P2VAR(Dcm_NegativeResponseCodeType, AUTOMATIC, RTE_APPL_DATA) ErrorCode);
-#else
-#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start(ErrorCode) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return
-extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return(OUT P2VAR(Dcm_NegativeResponseCodeType, AUTOMATIC, RTE_APPL_DATA) ErrorCode);
-#else
-#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return(ErrorCode) ((void)(0))
-#endif
-
 #if defined(Rte_CallHook_Dcm_DataServices_ActuatorControl_ConditionCheckRead_Start) && (RTE_VFB_TRACE == RTE_FALSE)
 #undef Rte_CallHook_Dcm_DataServices_ActuatorControl_ConditionCheckRead_Start
 #endif
@@ -866,6 +933,28 @@ extern void Rte_CallHook_Dcm_DataServices_ActuatorControl_ConditionCheckRead_Ret
 #define Rte_CallHook_Dcm_DataServices_ActuatorControl_ConditionCheckRead_Return(ErrorCode) ((void)(0))
 #endif
 
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start
+extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start(OUT P2VAR(Dcm_NegativeResponseCodeType, AUTOMATIC, RTE_APPL_DATA) ErrorCode);
+#else
+#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Start(ErrorCode) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return
+extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return(OUT P2VAR(Dcm_NegativeResponseCodeType, AUTOMATIC, RTE_APPL_DATA) ErrorCode);
+#else
+#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ConditionCheckRead_Return(ErrorCode) ((void)(0))
+#endif
+
 #if defined(Rte_CallHook_Dcm_DataServices_RPM_ReadData_Start) && (RTE_VFB_TRACE == RTE_FALSE)
 #undef Rte_CallHook_Dcm_DataServices_RPM_ReadData_Start
 #endif
@@ -886,28 +975,6 @@ extern void Rte_CallHook_Dcm_DataServices_RPM_ReadData_Start(OUT P2VAR(uint8, AU
 extern void Rte_CallHook_Dcm_DataServices_RPM_ReadData_Return(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
 #else
 #define Rte_CallHook_Dcm_DataServices_RPM_ReadData_Return(Data) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start
-extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
-#else
-#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start(Data) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return)
-#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return
-extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
-#else
-#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return(Data) ((void)(0))
 #endif
 
 #if defined(Rte_CallHook_Dcm_CallbackDCMRequestServices_ECU1_StartProtocol_Start) && (RTE_VFB_TRACE == RTE_FALSE)
@@ -956,6 +1023,28 @@ extern void Rte_CallHook_Dcm_SecurityAccess_L1_GetSeed_Return(IN Dcm_OpStatusTyp
 	OUT P2VAR(Dcm_NegativeResponseCodeType, AUTOMATIC, RTE_APPL_DATA) ErrorCode);
 #else
 #define Rte_CallHook_Dcm_SecurityAccess_L1_GetSeed_Return(OpStatus,	Seed,	ErrorCode) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start
+extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
+#else
+#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Start(Data) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return)
+#undef Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return
+extern void Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
+#else
+#define Rte_CallHook_Dcm_DataServices_VINDataIdentifier_ReadData_Return(Data) ((void)(0))
 #endif
 
 #if defined(Rte_CallHook_Dcm_DataServices_RPM_WriteData_Start) && (RTE_VFB_TRACE == RTE_FALSE)
@@ -1156,6 +1245,28 @@ extern void Rte_CallHook_Dcm_SecurityAccess_L1_CompareKey_Return(IN P2CONST(uint
 #define Rte_CallHook_Dcm_SecurityAccess_L1_CompareKey_Return(Key,	OpStatus) ((void)(0))
 #endif
 
+#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start)
+#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start
+extern void Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
+#else
+#define Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start(Data) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return
+#endif
+
+#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return)
+#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return
+extern void Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
+#else
+#define Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return(Data) ((void)(0))
+#endif
+
 #if defined(Rte_CallHook_Dcm_DataServices_RPM_ShortTermAdjustment_Start) && (RTE_VFB_TRACE == RTE_FALSE)
 #undef Rte_CallHook_Dcm_DataServices_RPM_ShortTermAdjustment_Start
 #endif
@@ -1178,28 +1289,6 @@ extern void Rte_CallHook_Dcm_DataServices_RPM_ShortTermAdjustment_Return(IN P2CO
 	OUT P2VAR(Dcm_NegativeResponseCodeType, AUTOMATIC, RTE_APPL_DATA) ErrorCode);
 #else
 #define Rte_CallHook_Dcm_DataServices_RPM_ShortTermAdjustment_Return(ControlStateInfo,	ErrorCode) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start)
-#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start
-extern void Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
-#else
-#define Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Start(Data) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return
-#endif
-
-#if defined(Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return)
-#undef Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return
-extern void Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return(OUT P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) Data);
-#else
-#define Rte_CallHook_Dcm_DataServices_VehicleSpeed_ReadData_Return(Data) ((void)(0))
 #endif
 
 #if defined(Rte_CallHook_Dcm_DataServices_RPM_FreezeCurrentState_Start) && (RTE_VFB_TRACE == RTE_FALSE)
@@ -2566,6 +2655,28 @@ extern void Rte_ModeHook_SWC_WdgMTest_globalMode_currentMode_Return();
 #define Rte_ModeHook_SWC_WdgMTest_globalMode_currentMode_Return() ((void)(0))
 #endif
 
+#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start
+#endif
+
+#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start)
+#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start
+extern void Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start(IN WdgM_CheckpointIdType ddCheckpointID);
+#else
+#define Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start(ddCheckpointID) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return
+#endif
+
+#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return)
+#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return
+extern void Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return(IN WdgM_CheckpointIdType ddCheckpointID);
+#else
+#define Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return(ddCheckpointID) ((void)(0))
+#endif
+
 #if defined(Rte_CallHook_SWC_WdgMTest_WdgM_API_R_SetMode_Start) && (RTE_VFB_TRACE == RTE_FALSE)
 #undef Rte_CallHook_SWC_WdgMTest_WdgM_API_R_SetMode_Start
 #endif
@@ -2588,28 +2699,6 @@ extern void Rte_CallHook_SWC_WdgMTest_WdgM_API_R_SetMode_Return(IN WdgM_ModeType
 	IN uint16 usCallerID);
 #else
 #define Rte_CallHook_SWC_WdgMTest_WdgM_API_R_SetMode_Return(ddMode,	usCallerID) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start
-#endif
-
-#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start)
-#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start
-extern void Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start(IN WdgM_CheckpointIdType ddCheckpointID);
-#else
-#define Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Start(ddCheckpointID) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return
-#endif
-
-#if defined(Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return)
-#undef Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return
-extern void Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return(IN WdgM_CheckpointIdType ddCheckpointID);
-#else
-#define Rte_CallHook_SWC_WdgMTest_SE_WdgMTest_CheckpointReached_Return(ddCheckpointID) ((void)(0))
 #endif
 
 #if defined(Rte_CallHook_SWC_WdgMTest_WdgM_API_R_GetFirstExpiredSEID_Start) && (RTE_VFB_TRACE == RTE_FALSE)
@@ -3076,30 +3165,6 @@ extern void Rte_CallHook_NvM_PNJF_NvMBlock_IntTst_TestBlock3_JobFinished_Return(
 #define Rte_CallHook_NvM_PNJF_NvMBlock_IntTst_TestBlock3_JobFinished_Return(ServiceId,	JobResult) ((void)(0))
 #endif
 
-#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start
-#endif
-
-#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start)
-#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start
-extern void Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start(IN uint8 ServiceId,
-	IN NvM_RequestResultType JobResult);
-#else
-#define Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start(ServiceId,	JobResult) ((void)(0))
-#endif
-
-#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return) && (RTE_VFB_TRACE == RTE_FALSE)
-#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return
-#endif
-
-#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return)
-#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return
-extern void Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return(IN uint8 ServiceId,
-	IN NvM_RequestResultType JobResult);
-#else
-#define Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return(ServiceId,	JobResult) ((void)(0))
-#endif
-
 #if defined(Rte_CallHook_NvM_PNJF_NvMBlock_IntTst_TestBlock1_JobFinished_Start) && (RTE_VFB_TRACE == RTE_FALSE)
 #undef Rte_CallHook_NvM_PNJF_NvMBlock_IntTst_TestBlock1_JobFinished_Start
 #endif
@@ -3122,6 +3187,30 @@ extern void Rte_CallHook_NvM_PNJF_NvMBlock_IntTst_TestBlock1_JobFinished_Return(
 	IN NvM_RequestResultType JobResult);
 #else
 #define Rte_CallHook_NvM_PNJF_NvMBlock_IntTst_TestBlock1_JobFinished_Return(ServiceId,	JobResult) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start
+#endif
+
+#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start)
+#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start
+extern void Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start(IN uint8 ServiceId,
+	IN NvM_RequestResultType JobResult);
+#else
+#define Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Start(ServiceId,	JobResult) ((void)(0))
+#endif
+
+#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return
+#endif
+
+#if defined(Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return)
+#undef Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return
+extern void Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return(IN uint8 ServiceId,
+	IN NvM_RequestResultType JobResult);
+#else
+#define Rte_CallHook_NvM_PNJF_NvMBlock_ConfigID_JobFinished_Return(ServiceId,	JobResult) ((void)(0))
 #endif
 
 #if defined(Rte_CallHook_NvM_PNJF_NvMBlock_IntTst_TestBlock2_JobFinished_Start) && (RTE_VFB_TRACE == RTE_FALSE)
@@ -9218,6 +9307,50 @@ extern void Rte_Runnable_SWC_ErrM_ErrM_DemEventNotification_Start(void);
 extern void Rte_Runnable_SWC_ErrM_ErrM_DemEventNotification_Return(void);
 #else
 #define Rte_Runnable_SWC_ErrM_ErrM_DemEventNotification_Return() ((void)(0))
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Start
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Start)
+#undef Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Start
+extern void Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Start(void);
+#else
+#define Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Start() ((void)(0))
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Return
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Return)
+#undef Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Return
+extern void Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Return(void);
+#else
+#define Rte_Runnable_SWC_SeatHeatingControl_RE_SeatHeatingControl_Return() ((void)(0))
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Start) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Start
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Start)
+#undef Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Start
+extern void Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Start(void);
+#else
+#define Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Start() ((void)(0))
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Return) && (RTE_VFB_TRACE == RTE_FALSE)
+#undef Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Return
+#endif
+
+#if defined(Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Return)
+#undef Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Return
+extern void Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Return(void);
+#else
+#define Rte_Runnable_SWC_SeatSwitch_RE_SeatSwitch_Return() ((void)(0))
 #endif
 
 #if defined(Rte_Runnable_SWC_TestModeManager_TestModeManager_Start) && (RTE_VFB_TRACE == RTE_FALSE)

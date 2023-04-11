@@ -20,67 +20,68 @@
 *******************************************************************************/
 /*
  * INPUT FILE:
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\ECUCD_EcucValueCollection.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Com.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Det.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_EcuC.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Os.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Rte.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Adc.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_BswM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Can.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanIf.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanSM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanTp.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Com.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_ComM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Crc.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dcm.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dem.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Det.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dio.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fee.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_FiM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fls.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Gpt.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Icu_43.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Mcu.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_MemIf.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_NvM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Os.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_PduR.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Port.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Pwm_43.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Spi.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Wdg_43.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Composition\EcuExtract.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DBImport\Project.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes_Etc.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_ComM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dcm.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dem.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_FiM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Mode.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_WdgM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\MODE_PortInterfaces.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Bsw_BswM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_ComM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Det.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_FiM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_EcuM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_IoHwAb.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgIf.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dcm.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dem.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_EcuM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_NvM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_IoHwAb.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_WdgM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_swc_ErrorManagement\App_ErrM.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_EcuM_R40\generator\EcuM_PortInterface.arxml
- *      C:\Users\cypark\Desktop\mobilgeneStudio2021a_x86_64\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_WdgM_R40\generator\Swcd_WdgM_Fixed.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\ECUCD_EcucValueCollection.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Com.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Det.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_EcuC.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Os.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\ECU\Ecud_Rte.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Adc.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_BswM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Can.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanIf.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanSM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_CanTp.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Com.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_ComM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Crc.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dcm.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dem.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Det.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Dio.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fee.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_FiM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Fls.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Gpt.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Icu_43.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Mcu.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_MemIf.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_NvM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Os.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_PduR.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Port.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Pwm_43.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Spi.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\BswMd\Bswmd_Wdg_43.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Composition\EcuExtract.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DBImport\Project.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\DataTypes\AUTOSAR_DataTypes_Etc.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_ComM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dcm.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Dem.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_FiM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Mode.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_Rte.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_App\App_WdgM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\MODE_PortInterfaces.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Bsw_BswM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_ComM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_Det.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Configuration\System\Swcd_Bsw\Swcd_FiM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_EcuM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_IoHwAb.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgIf.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\bswmd\Bswmd_WdgM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dcm.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_Dem.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_EcuM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_Bsw_NvM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_IoHwAb.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Generated\Bsw_Output\swcd\Swcd_WdgM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_swc_ErrorManagement\App_ErrM.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_EcuM_R40\generator\EcuM_PortInterface.arxml
+ *      C:\workspace\autoever_autosar_edu_Warrior_mpc5606b_Base_R220826\Static_Code\Modules\b_autosar_sys_WdgM_R40\generator\Swcd_WdgM_Fixed.arxml
 
  * GENERATED ON:  This timestamp is removed.
 */
@@ -134,6 +135,8 @@
 #include "Rte_SWC_DiagnosticMonitor.h"
 #include "Rte_SWC_DiagnosticService.h"
 #include "Rte_SWC_ErrM.h"
+#include "Rte_SWC_SeatHeatingControl.h"
+#include "Rte_SWC_SeatSwitch.h"
 #include "Rte_SWC_TestModeManager.h"
 #include "Rte_SWC_TestModeUser.h"
 #include "Rte_SWC_WdgMTest.h"
@@ -256,6 +259,7 @@ enum {
   BTE_BswTE_WdgM_MainFunction_WdgM,
   DRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM,
   DRE_DRE_BswM_Immediate_SwcModeRequest_ComMMode_Project_modeRequestPort_ComMMode_Project_ComMMode_Project_BswM,
+  DRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl,
   DRE_DRE_TestModeManager_TestModeRequestInterface_TestMode_SWC_TestModeManager,
   MSE_SMSE_Entry_DiagnosticSessionControlNotification_modeNotificationPort_SessionControl_DcmDiagnosticSessionControl_DCM_DEFAULT_SESSION_SWC_DiagnosticService,
   MSE_SMSE_Entry_DiagnosticSessionControlNotification_modeNotificationPort_SessionControl_DcmDiagnosticSessionControl_DCM_EXTENDED_DIAGNOSTIC_SESSION_SWC_DiagnosticService,
@@ -271,6 +275,7 @@ enum {
   MSE_SwcModeSwitchEvent_globalMode_OK_SWC_WdgMTest,
   MSE_SwcModeSwitchEvent_globalMode_STOPPED_SWC_WdgMTest,
   TE_TE_AppMode_Test_SWC_AppMode,
+  TE_TE_RE_SeatSwitch_SWC_SeatSwitch,
   TE_TE_Run_Actuator_SWC_Actuator,
   TE_TE_TestModeUser_B_SWC_TestModeUser,
   TE_TE_WdgMTest_SWC_WdgMTest,
@@ -363,6 +368,7 @@ static VAR(Rte_CsWdgM_SetMode_Type, RTE_DATA) Rte_GstCsWdgM_SetMode_WdgM_API_R_S
 #include "MemMap.h"
 static VAR(boolean, RTE_VAR_INIT) Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM = RTE_FALSE;
 static VAR(boolean, RTE_VAR_INIT) Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_ComMMode_Project_modeRequestPort_ComMMode_Project_ComMMode_Project_BswM = RTE_FALSE;
+static VAR(boolean, RTE_VAR_INIT) Rte_GblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl = RTE_FALSE;
 static VAR(boolean, RTE_VAR_INIT) Rte_GblDRE_DRE_TestModeManager_TestModeRequestInterface_TestMode_SWC_TestModeManager = RTE_FALSE;
 static VAR(boolean, RTE_VAR_INIT) Rte_GblMSE_SwcModeSwitchEvent_globalMode_EXPIRED_SWC_WdgMTest = RTE_FALSE;
 static VAR(boolean, RTE_VAR_INIT) Rte_GblMSE_SwcModeSwitchEvent_globalMode_FAILED_SWC_WdgMTest = RTE_FALSE;
@@ -375,11 +381,12 @@ static VAR(boolean, RTE_VAR_INIT) SchM_GblBIT_NvM_BITP_CallCyclicMemFunction = R
 #include "MemMap.h"
 #define RTE_START_SEC_VAR_INIT_8
 #include "MemMap.h"
-static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_AppModeRequestInterface_69_AppMode_1 = RTE_E_OK;
-static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_ComMModeRequestInterface_Project_76_ComMMode_Project_2 = RTE_E_OK;
-static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_ComM_CurrentChannelRequest_79_fullComRequestors_713 = RTE_E_UNCONNECTED;
-static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_ComM_CurrentChannelRequest_79_fullComRequestors_714 = RTE_E_UNCONNECTED;
-static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_TestModeRequestInterface_41_TestMode_728 = RTE_E_UNCONNECTED;
+static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_AppModeRequestInterface_70_AppMode_1 = RTE_E_OK;
+static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_ComMModeRequestInterface_Project_77_ComMMode_Project_2 = RTE_E_OK;
+static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_ComM_CurrentChannelRequest_80_fullComRequestors_713 = RTE_E_UNCONNECTED;
+static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_ComM_CurrentChannelRequest_80_fullComRequestors_714 = RTE_E_UNCONNECTED;
+static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_TestModeRequestInterface_42_TestMode_741 = RTE_E_UNCONNECTED;
+static VAR(Std_ReturnType, RTE_VAR_INIT) Rte_GucStatus_iF_SeatSwitch_5_PassengerDetected_734 = RTE_E_OK;
 static VAR(uint8, RTE_VAR_INIT) SchM_GucBET_Dem_ReleasedTrigger_ToNvM_Count = RTE_ZERO;
 static VAR(uint8, RTE_VAR_INIT) SchM_GucBET_Dem_ReleasedTrigger_ToNvM_Queue = RTE_ZERO;
 static VAR(uint8, RTE_VAR_INIT) SchM_GucBIT_NvM_BITP_CallCyclicMemFunction_Count = RTE_ZERO;
@@ -397,11 +404,12 @@ static VAR(TickType, RTE_DATA) Rte_GddBaseCntValueInSchMOsCounter_0 = 0;
 
 #define RTE_START_SEC_VAR_CLEARED_8
 #include "MemMap.h"
-static VAR(ComM_UserHandleArrayType, RTE_VAR_CLEARED) Rte_GstComM_CurrentChannelRequest_79_fullComRequestors_713;
-static VAR(ComM_UserHandleArrayType, RTE_VAR_CLEARED) Rte_GstComM_CurrentChannelRequest_79_fullComRequestors_714;
-static VAR(uint8, RTE_VAR_CLEARED) Rte_GucAppModeRequestInterface_69_AppMode_1;
-static VAR(uint8, RTE_VAR_CLEARED) Rte_GucComMModeRequestInterface_Project_76_ComMMode_Project_2;
-static VAR(uint8, RTE_VAR_CLEARED) Rte_GucTestModeRequestInterface_41_TestMode_728;
+static VAR(ComM_UserHandleArrayType, RTE_VAR_CLEARED) Rte_GstComM_CurrentChannelRequest_80_fullComRequestors_713;
+static VAR(ComM_UserHandleArrayType, RTE_VAR_CLEARED) Rte_GstComM_CurrentChannelRequest_80_fullComRequestors_714;
+static VAR(boolean, RTE_VAR_CLEARED) Rte_GbliF_SeatSwitch_5_PassengerDetected_734;
+static VAR(uint8, RTE_VAR_CLEARED) Rte_GucAppModeRequestInterface_70_AppMode_1;
+static VAR(uint8, RTE_VAR_CLEARED) Rte_GucComMModeRequestInterface_Project_77_ComMMode_Project_2;
+static VAR(uint8, RTE_VAR_CLEARED) Rte_GucTestModeRequestInterface_42_TestMode_741;
 
 #define RTE_STOP_SEC_VAR_CLEARED_8
 #include "MemMap.h"
@@ -467,6 +475,10 @@ const struct Rte_CDS_SWC_DiagnosticService Rte_Inst_SWC_DiagnosticService = {0};
 
 const struct Rte_CDS_SWC_ErrM Rte_Inst_SWC_ErrM = {0};
 
+const struct Rte_CDS_SWC_SeatHeatingControl Rte_Inst_SWC_SeatHeatingControl = {0};
+
+const struct Rte_CDS_SWC_SeatSwitch Rte_Inst_SWC_SeatSwitch = {0};
+
 const struct Rte_CDS_SWC_TestModeManager Rte_Inst_SWC_TestModeManager = {0};
 
 const struct Rte_CDS_SWC_TestModeUser Rte_Inst_SWC_TestModeUser = {0};
@@ -508,6 +520,7 @@ FUNC(Std_ReturnType, RTE_CODE) Rte_Start (void)
     SET_FLAG(STARTSTOP_FLAG, Rte_GaaInitFlag);
     Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM = RTE_FALSE;
     Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_ComMMode_Project_modeRequestPort_ComMMode_Project_ComMMode_Project_BswM = RTE_FALSE;
+    Rte_GblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl = RTE_FALSE;
     Rte_GblDRE_DRE_TestModeManager_TestModeRequestInterface_TestMode_SWC_TestModeManager = RTE_FALSE;
     Rte_GblMSE_SwcModeSwitchEvent_globalMode_EXPIRED_SWC_WdgMTest = RTE_FALSE;
     Rte_GblMSE_SwcModeSwitchEvent_globalMode_FAILED_SWC_WdgMTest = RTE_FALSE;
@@ -726,9 +739,9 @@ Rte_Write_SWC_AppMode_modeRequestPort_AppMode_AppMode(IN VAR(uint8, AUTOMATIC) D
 
   SuspendAllInterrupts();
   
-  Rte_GucAppModeRequestInterface_69_AppMode_1 = Data;
+  Rte_GucAppModeRequestInterface_70_AppMode_1 = Data;
   
-  Rte_GucStatus_AppModeRequestInterface_69_AppMode_1 = RTE_E_OK;
+  Rte_GucStatus_AppModeRequestInterface_70_AppMode_1 = RTE_E_OK;
   
   Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM = RTE_TRUE;
   
@@ -754,9 +767,9 @@ Rte_Write_SWC_AppMode_modeRequestPort_ComMMode_Project_ComMMode_Project(IN VAR(u
 
   SuspendAllInterrupts();
   
-  Rte_GucComMModeRequestInterface_Project_76_ComMMode_Project_2 = Data;
+  Rte_GucComMModeRequestInterface_Project_77_ComMMode_Project_2 = Data;
   
-  Rte_GucStatus_ComMModeRequestInterface_Project_76_ComMMode_Project_2 = RTE_E_OK;
+  Rte_GucStatus_ComMModeRequestInterface_Project_77_ComMMode_Project_2 = RTE_E_OK;
   
   Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_ComMMode_Project_modeRequestPort_ComMMode_Project_ComMMode_Project_BswM = RTE_TRUE;
   
@@ -796,9 +809,9 @@ Rte_Write_SWC_ErrM_modeRequestPort_AppMode_AppMode(IN VAR(uint8, AUTOMATIC) Data
 
   SuspendAllInterrupts();
   
-  Rte_GucAppModeRequestInterface_69_AppMode_1 = Data;
+  Rte_GucAppModeRequestInterface_70_AppMode_1 = Data;
   
-  Rte_GucStatus_AppModeRequestInterface_69_AppMode_1 = RTE_E_OK;
+  Rte_GucStatus_AppModeRequestInterface_70_AppMode_1 = RTE_E_OK;
   
   Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM = RTE_TRUE;
   
@@ -810,6 +823,34 @@ Rte_Write_SWC_ErrM_modeRequestPort_AppMode_AppMode(IN VAR(uint8, AUTOMATIC) Data
 
   /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
   Rte_WriteHook_SWC_ErrM_modeRequestPort_AppMode_AppMode_Return(Data);
+
+  return LddRetVal;
+}
+
+FUNC(Std_ReturnType, RTE_CODE)
+Rte_Write_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected(IN VAR(boolean, AUTOMATIC) Data)
+{
+  VAR(Std_ReturnType, AUTOMATIC) LddRetVal = RTE_E_OK;
+
+  /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
+  Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Start(Data);
+
+  SuspendAllInterrupts();
+  
+  Rte_GbliF_SeatSwitch_5_PassengerDetected_734 = Data;
+  
+  Rte_GucStatus_iF_SeatSwitch_5_PassengerDetected_734 = RTE_E_OK;
+  
+  Rte_GblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl = RTE_TRUE;
+  
+  ResumeAllInterrupts();
+  
+  /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
+  Rte_Task_Activate(OsTask_BSW_AppModeRequest);
+  (void)ActivateTask(OsTask_BSW_AppModeRequest);
+
+  /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
+  Rte_WriteHook_SWC_SeatSwitch_P_SeatSwitch_PassengerDetected_Return(Data);
 
   return LddRetVal;
 }
@@ -827,7 +868,7 @@ Rte_Read_BswM_modeRequestPort_AppMode_AppMode(OUT P2VAR(uint8, AUTOMATIC, RTE_AP
   
   if (Data != NULL_PTR)
   {
-    *Data = Rte_GucAppModeRequestInterface_69_AppMode_1;
+    *Data = Rte_GucAppModeRequestInterface_70_AppMode_1;
   }
   
   ResumeAllInterrupts();
@@ -835,7 +876,7 @@ Rte_Read_BswM_modeRequestPort_AppMode_AppMode(OUT P2VAR(uint8, AUTOMATIC, RTE_AP
   /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
   Rte_ReadHook_BswM_modeRequestPort_AppMode_AppMode_Return(Data);
 
-  return Rte_GucStatus_AppModeRequestInterface_69_AppMode_1;
+  return Rte_GucStatus_AppModeRequestInterface_70_AppMode_1;
 }
 
 FUNC(Std_ReturnType, RTE_CODE)
@@ -848,7 +889,7 @@ Rte_Read_BswM_modeRequestPort_ComMMode_Project_ComMMode_Project(OUT P2VAR(uint8,
   
   if (Data != NULL_PTR)
   {
-    *Data = Rte_GucComMModeRequestInterface_Project_76_ComMMode_Project_2;
+    *Data = Rte_GucComMModeRequestInterface_Project_77_ComMMode_Project_2;
   }
   
   ResumeAllInterrupts();
@@ -856,7 +897,7 @@ Rte_Read_BswM_modeRequestPort_ComMMode_Project_ComMMode_Project(OUT P2VAR(uint8,
   /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
   Rte_ReadHook_BswM_modeRequestPort_ComMMode_Project_ComMMode_Project_Return(Data);
 
-  return Rte_GucStatus_ComMModeRequestInterface_Project_76_ComMMode_Project_2;
+  return Rte_GucStatus_ComMModeRequestInterface_Project_77_ComMMode_Project_2;
 }
 
 FUNC(Std_ReturnType, RTE_CODE)
@@ -870,7 +911,7 @@ Rte_Read_SWC_ComM_CR000_R_fullComRequestors(OUT P2VAR(ComM_UserHandleArrayType, 
     Rte_Memcpy
     (
       Data,
-      &Rte_GstComM_CurrentChannelRequest_79_fullComRequestors_713,
+      &Rte_GstComM_CurrentChannelRequest_80_fullComRequestors_713,
       sizeof(ComM_UserHandleArrayType)
     );
   }
@@ -878,7 +919,7 @@ Rte_Read_SWC_ComM_CR000_R_fullComRequestors(OUT P2VAR(ComM_UserHandleArrayType, 
   /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
   Rte_ReadHook_SWC_ComM_CR000_R_fullComRequestors_Return(Data);
 
-  return Rte_GucStatus_ComM_CurrentChannelRequest_79_fullComRequestors_713;
+  return Rte_GucStatus_ComM_CurrentChannelRequest_80_fullComRequestors_713;
 }
 
 FUNC(Std_ReturnType, RTE_CODE)
@@ -892,7 +933,7 @@ Rte_Read_SWC_ComM_CR001_R_fullComRequestors(OUT P2VAR(ComM_UserHandleArrayType, 
     Rte_Memcpy
     (
       Data,
-      &Rte_GstComM_CurrentChannelRequest_79_fullComRequestors_714,
+      &Rte_GstComM_CurrentChannelRequest_80_fullComRequestors_714,
       sizeof(ComM_UserHandleArrayType)
     );
   }
@@ -900,7 +941,28 @@ Rte_Read_SWC_ComM_CR001_R_fullComRequestors(OUT P2VAR(ComM_UserHandleArrayType, 
   /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
   Rte_ReadHook_SWC_ComM_CR001_R_fullComRequestors_Return(Data);
 
-  return Rte_GucStatus_ComM_CurrentChannelRequest_79_fullComRequestors_714;
+  return Rte_GucStatus_ComM_CurrentChannelRequest_80_fullComRequestors_714;
+}
+
+FUNC(Std_ReturnType, RTE_CODE)
+Rte_Read_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected(OUT P2VAR(boolean, AUTOMATIC, RTE_APPL_DATA) Data)
+{
+  /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
+  Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Start(Data);
+
+  SuspendAllInterrupts();
+  
+  if (Data != NULL_PTR)
+  {
+    *Data = Rte_GbliF_SeatSwitch_5_PassengerDetected_734;
+  }
+  
+  ResumeAllInterrupts();
+
+  /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
+  Rte_ReadHook_SWC_SeatHeatingControl_R_SeatSwitch_PassengerDetected_Return(Data);
+
+  return Rte_GucStatus_iF_SeatSwitch_5_PassengerDetected_734;
 }
 
 FUNC(Std_ReturnType, RTE_CODE)
@@ -911,13 +973,13 @@ Rte_Read_SWC_TestModeManager_TestModeRequestInterface_TestMode(OUT P2VAR(uint8, 
 
   if (Data != NULL_PTR)
   {
-    *Data = Rte_GucTestModeRequestInterface_41_TestMode_728;
+    *Data = Rte_GucTestModeRequestInterface_42_TestMode_741;
   }
 
   /* polyspace<MISRA-C:14.2:Not a defect:Justify with annotations> AUTOSAR Standard rte_sws_1236 */
   Rte_ReadHook_SWC_TestModeManager_TestModeRequestInterface_TestMode_Return(Data);
 
-  return Rte_GucStatus_TestModeRequestInterface_41_TestMode_728;
+  return Rte_GucStatus_TestModeRequestInterface_42_TestMode_741;
 }
 
 /*******************************************************************************
@@ -2776,6 +2838,26 @@ FUNC(Std_ReturnType, RTE_CODE) Rte_Call_SWC_DiagnosticService_DCM_Services_Reset
 {
   VAR(Std_ReturnType, RTE_DATA) LddRetVal = RTE_E_OK;
   LddRetVal = Dcm_ResetToDefaultSession();
+  return LddRetVal;
+}
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Call_SWC_SeatHeatingControl_R_HeatingElement_WriteDirect(
+  IN IoHwAb_LevelType Level)
+{
+  VAR(Std_ReturnType, RTE_DATA) LddRetVal = RTE_E_OK;
+  IoHwAb_DigDirWriteDirect(
+    Rte_PDAV_IoHwAbP_IoHwAbDigitalDirectLogical_LED01_1,
+    Level);
+  return LddRetVal;
+}
+
+FUNC(Std_ReturnType, RTE_CODE) Rte_Call_SWC_SeatSwitch_R_IO_ReadDirect(
+  OUT P2VAR(IoHwAb_LevelType, AUTOMATIC, RTE_APPL_DATA) Level)
+{
+  VAR(Std_ReturnType, RTE_DATA) LddRetVal = RTE_E_OK;
+  IoHwAb_DigDirReadDirect(
+    Rte_PDAV_IoHwAbP_IoHwAbDigitalDirectLogical_S01_1,
+    Level);
   return LddRetVal;
 }
 
@@ -5706,11 +5788,17 @@ FUNC(void, RTE_CODE) SchM_Exit_WdgM_GLOBALSUPVSNSTATUS_PROTECTION(void)
 TASK(OsTask_BSW_AppModeRequest)
 {
   VAR(boolean, AUTOMATIC) LblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM = RTE_FALSE;
+  VAR(boolean, AUTOMATIC) LblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl = RTE_FALSE;
   SuspendAllInterrupts();
   if (Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM == RTE_TRUE)
   {
     Rte_GblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM = RTE_FALSE;
     LblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM = RTE_TRUE;
+  }
+  if (Rte_GblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl == RTE_TRUE)
+  {
+    Rte_GblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl = RTE_FALSE;
+    LblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl = RTE_TRUE;
   }
   ResumeAllInterrupts();
   if(CHECK_FLAG(STARTSTOP_FLAG, Rte_GaaInitFlag) != FALSE)
@@ -5718,6 +5806,10 @@ TASK(OsTask_BSW_AppModeRequest)
     if (LblDRE_DRE_BswM_Immediate_SwcModeRequest_AppMode_modeRequestPort_AppMode_AppMode_BswM == RTE_TRUE)
     {
       BswM_Immediate_SwcModeRequest_AppMode();
+    }
+    if (LblDRE_DRE_RE_SeatHeatingControl_R_SeatSwitch_PassengerDetected_SWC_SeatHeatingControl == RTE_TRUE)
+    {
+      SeatHeatingControl_func();
     }
   }
   else
@@ -5966,6 +6058,7 @@ TASK(OsTask_ASW_FG1_100ms)
     {
       AppMode_Test();
     }
+    SeatSwitch_func();
   }
   else
   {

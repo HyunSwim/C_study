@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 autosar_4-0-3.xsd">
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_4-0-3.xsd">
   <AR-PACKAGES>
     <AR-PACKAGE UUID="3e5a352d-12b9-4a57-8e94-abf97ebe3f67">
       <SHORT-NAME>ECU_EXTRACT</SHORT-NAME>
@@ -497,6 +497,14 @@
                     </COMPONENT-IREF>
                     <COMPONENT-IREF>
                       <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ECU_EXTRACT/EcuExtract/RootSwCompositionPrototype</CONTEXT-COMPOSITION-REF>
+                      <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/SWC_SeatHeatingControl</TARGET-COMPONENT-REF>
+                    </COMPONENT-IREF>
+                    <COMPONENT-IREF>
+                      <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ECU_EXTRACT/EcuExtract/RootSwCompositionPrototype</CONTEXT-COMPOSITION-REF>
+                      <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/SWC_SeatSwitch</TARGET-COMPONENT-REF>
+                    </COMPONENT-IREF>
+                    <COMPONENT-IREF>
+                      <CONTEXT-COMPOSITION-REF DEST="ROOT-SW-COMPOSITION-PROTOTYPE">/ECU_EXTRACT/EcuExtract/RootSwCompositionPrototype</CONTEXT-COMPOSITION-REF>
                       <TARGET-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/SWC_TestModeManager</TARGET-COMPONENT-REF>
                     </COMPONENT-IREF>
                     <COMPONENT-IREF>
@@ -964,6 +972,14 @@
               <SHORT-NAME>SWC_ErrM</SHORT-NAME>
               <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ErrM/ApplicationSwComponentTypes/SWC_ErrM</TYPE-TREF>
             </SW-COMPONENT-PROTOTYPE>
+            <SW-COMPONENT-PROTOTYPE UUID="a40d473f-e663-4e9a-bfd8-f403e31ec2ab">
+              <SHORT-NAME>SWC_SeatHeatingControl</SHORT-NAME>
+              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ARRoot/SWC_SeatHeatingControl</TYPE-TREF>
+            </SW-COMPONENT-PROTOTYPE>
+            <SW-COMPONENT-PROTOTYPE UUID="f475ee55-97cc-42c2-98ab-51d267103497">
+              <SHORT-NAME>SWC_SeatSwitch</SHORT-NAME>
+              <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/ARRoot/SWC_SeatSwitch</TYPE-TREF>
+            </SW-COMPONENT-PROTOTYPE>
             <SW-COMPONENT-PROTOTYPE UUID="bb016ebb-5b4c-4c21-8555-9e85b2ccb371">
               <SHORT-NAME>SWC_TestModeManager</SHORT-NAME>
               <TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/AppMode/ApplicationSwComponentTypes/SWC_TestModeManager</TYPE-TREF>
@@ -1315,6 +1331,17 @@
                 <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AppSwComponent_Dem/SwComponentType/SWC_DiagnosticMonitor/OpCycle_POWER_CYCLE</TARGET-R-PORT-REF>
               </REQUESTER-IREF>
             </ASSEMBLY-SW-CONNECTOR>
+            <ASSEMBLY-SW-CONNECTOR UUID="cb6d9472-d379-472f-af27-c96cea58f69d">
+              <SHORT-NAME>P_SeatSwitchOfSWC_SeatSwitchToR_SeatSwitchOfSWC_SeatHeatingControl</SHORT-NAME>
+              <PROVIDER-IREF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/SWC_SeatSwitch</CONTEXT-COMPONENT-REF>
+                <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/ARRoot/SWC_SeatSwitch/P_SeatSwitch</TARGET-P-PORT-REF>
+              </PROVIDER-IREF>
+              <REQUESTER-IREF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/SWC_SeatHeatingControl</CONTEXT-COMPONENT-REF>
+                <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ARRoot/SWC_SeatHeatingControl/R_SeatSwitch</TARGET-R-PORT-REF>
+              </REQUESTER-IREF>
+            </ASSEMBLY-SW-CONNECTOR>
             <ASSEMBLY-SW-CONNECTOR UUID="2731b6ac-a80b-4a31-b8b1-8619913a1ba3">
               <SHORT-NAME>RoutineServices_RID_0200h_CalibrationActuatorOfSWC_DiagnosticServiceToRoutineServices_RID_0200h_CalibrationActuatorOfDcm</SHORT-NAME>
               <PROVIDER-IREF>
@@ -1491,6 +1518,28 @@
                 <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/AppMode/ApplicationSwComponentTypes/SWC_AppMode/modeNotificationPort_PduGroupTx_Project</TARGET-R-PORT-REF>
               </REQUESTER-IREF>
             </ASSEMBLY-SW-CONNECTOR>
+            <ASSEMBLY-SW-CONNECTOR UUID="575aaca6-263f-4222-b334-d8a4a4fb1ba5">
+              <SHORT-NAME>P_IoHwAbDigitalDirectLogical_S01OfSvc_IoHwAbToR_IOOfSWC_SeatSwitch</SHORT-NAME>
+              <PROVIDER-IREF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/Svc_IoHwAb</CONTEXT-COMPONENT-REF>
+                <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/Svc_IoHwAb/EcuAbstractionSwComponentTypes/IoHwAb/P_IoHwAbDigitalDirectLogical_S01</TARGET-P-PORT-REF>
+              </PROVIDER-IREF>
+              <REQUESTER-IREF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/SWC_SeatSwitch</CONTEXT-COMPONENT-REF>
+                <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ARRoot/SWC_SeatSwitch/R_IO</TARGET-R-PORT-REF>
+              </REQUESTER-IREF>
+            </ASSEMBLY-SW-CONNECTOR>
+            <ASSEMBLY-SW-CONNECTOR UUID="64388f8e-5c2a-454b-ae2f-80d9222c0efc">
+              <SHORT-NAME>P_IoHwAbDigitalDirectLogical_LED01OfSvc_IoHwAbToR_HeatingElementOfSWC_SeatHeatingControl</SHORT-NAME>
+              <PROVIDER-IREF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/Svc_IoHwAb</CONTEXT-COMPONENT-REF>
+                <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/Svc_IoHwAb/EcuAbstractionSwComponentTypes/IoHwAb/P_IoHwAbDigitalDirectLogical_LED01</TARGET-P-PORT-REF>
+              </PROVIDER-IREF>
+              <REQUESTER-IREF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/ECU_EXTRACT/EcuComposition/SWC_SeatHeatingControl</CONTEXT-COMPONENT-REF>
+                <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/ARRoot/SWC_SeatHeatingControl/R_HeatingElement</TARGET-R-PORT-REF>
+              </REQUESTER-IREF>
+            </ASSEMBLY-SW-CONNECTOR>
           </CONNECTORS>
         </COMPOSITION-SW-COMPONENT-TYPE>
       </ELEMENTS>
@@ -1503,3 +1552,4 @@
     </AR-PACKAGE>
   </AR-PACKAGES>
 </AUTOSAR>
+
